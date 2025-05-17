@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Spotify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Inamul's Collection</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>All Songs</h2>
+      <div id="song-list" class="grid"></div>
+    </section>
+
+    <section>
+      <h2>Your Library ❤️</h2>
+      <div id="library-list" class="grid"></div>
+    </section>
+  </main>
+
+  <footer id="player">
+    <img id="cover" src="" alt="">
+    <div>
+      <h4 id="now-playing">Nothing playing</h4>
+    </div>
+    <audio id="audio" controls></audio>
+    <button id="repeatBtn" onclick="toggleRepeat()">🔁</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
